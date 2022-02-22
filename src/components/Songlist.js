@@ -5,11 +5,7 @@ import SortAndFilter from "./SortAndFilter"
 
 function Songlist() {
 
-    const [songs, setSongs] = useState([
-        {id: 3, title: "c", artist: "Artist 1", genre: "Rock", rating: "4"},
-        {id: 1, title: "a", artist: "Artist 2", genre: "Punk", rating: "5"},
-        {id: 2, title: "b", artist: "Artist 3", genre: "Pop", rating: "3"},
-    ])
+    const [songs, setSongs] = useState([])
     const [filteredSongs, setFilteredSongs] = useState([])
 
     function addSongToState(title, artist, genre, rating) {
