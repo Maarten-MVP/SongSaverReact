@@ -8,6 +8,27 @@ body {
   color: #fff
 }
 
+.navbar {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 25px;
+}
+
+.navbar a {
+  margin-left: 25px;
+  color: #fff;
+  text-decoration: none;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  cursor: pointer;
+  color: #CBCB41;
+}
+
 .nav {
   text-align: center;
 }
